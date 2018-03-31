@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff">
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:textSize="25dp"
+        android:padding="10dp"
+        android:textColor="#ffffff"
+        android:background="#000000"
+        android:gravity="center_vertical"
+        android:text="@string/request_number"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#55000000"
+        />
+
+    <TextView
+        android:id="@+id/tv_reserved_zero"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:gravity="center_vertical"
+        android:text="0"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#55000000"
+        />
+
+    <TextView
+        android:id="@+id/tv_reserved_one"
+        android:layout_width="300dp"
+        android:padding="10dp"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:text="1"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#55000000"
+        />
+
+    <TextView
+        android:id="@+id/tv_reserved_two"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:gravity="center_vertical"
+        android:text="2"/>
+
+</LinearLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/preview_goods_list"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <FrameLayout
+        android:id="@+id/fl_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#E6E6E6">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_product"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/login_button"
+                android:drawableLeft="@mipmap/product_add"
+                android:paddingLeft="20dp"
+                android:text="@string/product"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/btn_commit"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_margin="10dp"
+                android:background="@drawable/login_button"
+                android:text="@string/commit"
+                android:textColor="#ffffff" />
+
+        </RelativeLayout>
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tv_data_empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/fl_view"
+        android:layout_below="@id/tv_content"
+        android:background="#CBCBCB"
+        android:gravity="center"
+        android:text="@string/data_is_empty"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/preview_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/fl_view"
+        android:layout_below="@id/tv_content"
+        android:background="#CBCBCB">
+
+    </ListView>
+
+</RelativeLayout>

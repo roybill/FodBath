@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/vertical_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_centerVertical="true" />
+
+    <View
+        android:id="@+id/horizontal_line"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+    <LinearLayout
+        android:id="@+id/ll_en_preview_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/vertical_line"
+        android:layout_toLeftOf="@id/horizontal_line"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <ImageView
+            android:id="@+id/iv_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_one"
+            android:layout_gravity="center"
+            android:text="Submitted and" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_one"
+            android:layout_gravity="center"
+            android:text="Pending List" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_en_data_query_and_request"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/vertical_line"
+        android:layout_toRightOf="@id/horizontal_line"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <ImageView
+            android:id="@+id/iv_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_two"
+            android:text="Stock Enquiry and" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_two"
+            android:layout_gravity="center"
+            android:text="Reservation" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_two"
+            android:layout_gravity="center"
+            android:text="Request" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_en_change_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/vertical_line"
+        android:layout_toLeftOf="@id/horizontal_line"
+        android:orientation="vertical"
+        android:padding="45dp">
+
+        <ImageView
+            android:id="@+id/iv_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_three"
+            android:layout_gravity="center"
+            android:text="Change" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_three"
+            android:layout_gravity="center"
+            android:text="Password" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_en_sign_out"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/vertical_line"
+        android:layout_toRightOf="@id/horizontal_line"
+        android:orientation="vertical"
+        android:padding="45dp">
+
+        <ImageView
+            android:id="@+id/iv_four"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_four"
+            android:layout_gravity="center"
+            android:text="Logout" />
+
+    </LinearLayout>
+
+</RelativeLayout>

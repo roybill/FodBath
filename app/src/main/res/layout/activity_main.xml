@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ttg.fodbath.fodbath.activity.MainActivity">
+
+    <View
+        android:id="@+id/vertical_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_centerVertical="true"
+         />
+
+    <View
+        android:id="@+id/horizontal_line"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        />
+
+    <LinearLayout
+        android:id="@+id/ll_preview_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/vertical_line"
+        android:layout_toLeftOf="@id/horizontal_line"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <ImageView
+            android:id="@+id/iv_one"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_one"
+            android:gravity="center"
+            android:text="@string/main_preview_goods_list" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_data_query_and_request"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_above="@id/vertical_line"
+        android:layout_toRightOf="@id/horizontal_line"
+        android:padding="20dp">
+
+        <ImageView
+            android:id="@+id/iv_two"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_two"
+            android:layout_gravity="center"
+            android:text="@string/main_stock_query_and_goods_request1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_two"
+            android:layout_gravity="center"
+            android:text="@string/main_stock_query_and_goods_request2" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_change_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/vertical_line"
+        android:layout_toLeftOf="@id/horizontal_line"
+        android:padding="45dp">
+
+        <ImageView
+            android:id="@+id/iv_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_three"
+            android:gravity="center"
+            android:text="@string/change_password" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_sign_out"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/vertical_line"
+        android:layout_toRightOf="@id/horizontal_line"
+        android:padding="45dp">
+
+        <ImageView
+            android:id="@+id/iv_four"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_four"
+            android:layout_gravity="center"
+            android:text="@string/sign_out" />
+
+    </LinearLayout>
+
+</RelativeLayout>

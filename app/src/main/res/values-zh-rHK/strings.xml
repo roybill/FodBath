@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FodBath</string>
+    <string name="main_language">ENG</string>
+    <string name="main_home">主頁</string>
+    <string name="main_preview_goods_list">預覽留貨清單</string>
+    <string name="main_stock_query_and_goods_request1">庫存查詢及</string>
+    <string name="main_stock_query_and_goods_request2">留貨請求</string>
+    <string name="change_password">更改密碼</string>
+    <string name="sign_out">登出</string>
+    <string name="already_commit_to_goods_list">已提交至留貨清單</string>
+    <string name="product_search">產品搜索</string>
+    <string name="keyword">關鍵字</string>
+    <string name="button_search">搜尋</string>
+    <string name="product_search_result">產品搜索結果</string>
+    <string name="view_preview_list">檢視</string>
+    <string name="preview_goods_list">預覽留貨清單</string>
+    <string name="product">產品</string>
+    <string name="commit">提交</string>
+    <string name="specification">規格</string>
+    <string name="add">新增</string>
+    <string name="current_password">目前密碼</string>
+    <string name="new_password">新密碼</string>
+    <string name="confirm_new_password">確認新密碼</string>
+    <string name="confirm">確認</string>
+    <string name="confirm_sign_out">確認登出?</string>
+    <string name="cancel">取消</string>
+    <string name="please_choose_request_qty">請選擇要求預留數量</string>
+    <string name="success_add_to_goods_list">成功添加到留貨請求清單中</string>
+    <string name="view_list">檢視清單</string>
+    <string name="keep_on">繼續</string>
+    <string name="exit_the_request_list">退出請求清單?</string>
+    <string name="confirm_delete">確認刪除?</string>
+    <string name="successfully_deleted">刪除成功</string>
+    <string name="product_number">產品編號:</string>
+    <string name="product_content">產品內容:</string>
+    <string name="suggested_retail_price">建議零售價  $      </string>
+    <string name="stock_number">庫存數量  </string>
+    <string name="request_number">要求預留數量  </string>
+    <string name="detail_stock_number">庫存數量  </string>
+    <string name="next_shipment_Estimated_arrival_date">預計下一批貨到港日期</string>
+    <string name="next_shipment_quantity">下一批貨之數量</string>
+    <string name="request_quantity">要求預留數量(只可預留庫存之貨品)</string>
+    <string name="data_is_empty">數據為空,請添加數據</string>
+    <string name="ask_number">要求編號</string>
+    <string name="already_commit_request_quantity">要求預留數量</string>
+    <string name="expire_date">到期日</string>
+    <string name="cannot_find_the_relevant_information">找不到相關資料</string>
+    <string name="save_successfully">儲存成功</string>
+    <string name="your_reservation_list_has_been_successfully_submitted">您的預留清單已經成功提交</string>
+    <string name="serial_number">編號</string>
+    <string name="your_product_will_be_due_in_May">您預留的產品到期時間為</string>
+    <string name="has_been_added_to_reservation_request_list">已添加至預覽留貨清單,請勿重復添加</string>
+
+</resources>
